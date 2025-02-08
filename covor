@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin de Covoare Luxoase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h2 {
+            font-size: 20px;
+            color: #333;
+        }
+        .product p {
+            font-size: 14px;
+            color: #777;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Magazin de Covoare Luxoase</h1>
+        <div class="product">
+            <img src="images/covor1.jpg" alt="Covor Persan Royal">
+            <h2>Covor Persan Royal</h2>
+            <p>Un covor elegant, țesut manual, din lână de cea mai înaltă calitate.</p>
+            <p class="price">1200 EUR</p>
+            <a href="#" class="btn">Contactează pentru cumpărare</a>
+        </div>
+        <div class="product">
+            <img src="images/covor2.jpg" alt="Covor Modern Premium">
+            <h2>Covor Modern Premium</h2>
+            <p>Design modern, perfect pentru orice interior sofisticat.</p>
+            <p class="price">950 EUR</p>
+            <a href="#" class="btn">Contactează pentru cumpărare</a>
+        </div>
+    </div>
+</body>
+</html>
